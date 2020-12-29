@@ -16,7 +16,7 @@ jobs:
     resources: custom
     requirements: [kind]
     command: [prow/istio-lint.sh]
-    env:
+    env::q
     - name: var
       value: val
     repos: [istio/istio]
